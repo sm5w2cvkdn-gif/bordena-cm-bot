@@ -15,6 +15,7 @@ Bot que diseña y publica una historia de Instagram por día con el estilo de Bo
 
 | Archivo | Para qué |
 |---|---|
+| `FECHAS.md` | **Historias para días puntuales** (feriados, promos, eventos). Tienen prioridad. |
 | `CALENDARIO.md` | Tema de cada día de la semana y fechas especiales. |
 | `SERVICIOS.md` | Servicios, horarios y datos que el bot puede mencionar. El bot no inventa nada que no esté acá. |
 | `PROMOS.md` | Promos y avisos con fecha de inicio y fin (feriados, horarios especiales). |

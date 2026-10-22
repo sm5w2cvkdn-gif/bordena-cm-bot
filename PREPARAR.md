@@ -10,9 +10,11 @@ solo si la historia fue aprobada.
    Día de la semana: `TZ=America/Argentina/Buenos_Aires date +%A`.
 2. Si ya existe `historias/FECHA.jpg` en `main`, o ya existe la rama `claude/historia-FECHA` en el
    remoto (`git ls-remote --heads origin claude/historia-FECHA`), terminá: ya está hecha.
-3. Leé `MARCA.md`, `CALENDARIO.md`, `SERVICIOS.md`, `PROMOS.md` y `historial.md`. Listá `fotos/`.
-4. Decidí el tema (calendario + fechas especiales + promos vigentes hoy) y el diseño, respetando las
-   reglas de variedad (no repetir el diseño de ayer, no repetir títulos ni servicios recientes).
+3. Leé `MARCA.md`, `FECHAS.md`, `CALENDARIO.md`, `SERVICIOS.md`, `PROMOS.md` y `historial.md`. Listá `fotos/`.
+4. Decidí el tema con esta prioridad: (1) lo que diga `FECHAS.md` para hoy, (2) fechas especiales de
+   `CALENDARIO.md`, (3) promos vigentes hoy en `PROMOS.md`, (4) el tema del día de la semana.
+   Elegí el diseño respetando las reglas de variedad (no repetir el diseño de ayer, no repetir títulos
+   ni servicios recientes). Respetá la lista "No mencionar nunca" de `SERVICIOS.md`.
 5. Escribí `historias/FECHA.json` con el formato de `README.md` (sección "Formato del JSON").
    Mirá `muestras/*.json` como referencia de largo y tono.
 6. Renderizá:
